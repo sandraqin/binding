@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+  }
+body {
+    min-height: 100%;
+}
+
+:root {
+    --base: 16px;
+    --heading: calc(var(--base) * 2);
+    --page-spacing:15px;
+
+
+    font-family: sans-serif;
+    font-size: var(--base);
+    margin-top:0
+
+
+}
+@media (min-width: 600px) {
+    :root {
+        --base: 20px;
+        margin-top:0
+    }
+
+    html,body{
+        height: 100%;}
+}
+
+.left{
+height:100%;
+width: 50%;   
+
+overflow-y: hidden;
+
+}
+.criticism{
+background-color: rgb(48, 49, 49);
+display:flex;
+flex-wrap:wrap;
+
+padding:calc(var(--page-spacing) * 3);
+padding-top:calc(var(--page-spacing) * 2);
+padding-bottom:0;
+height:100%;
+width: 50%;
+
+overflow-y: hidden;
+
+
+}
+
+.title1{
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 500;
+font-size:calc(var(--base) * 1.2) ;
+color:rgb(201, 188, 66);
+
+
+}
+
+hr.solid {
+    border-top: 2px solid rgb(201, 188, 66);
+    width:100%;
+    padding:0;
+}
+
+.context1{
+
+font-family: 'Roboto Slab';
+font-style: normal;
+line-height: 150%;
+
+font-size:calc(var(--base) * 0.6) ;
+color:rgb(255, 255, 255);
+font-weight: 300;
+height: 65%;
+overflow-y: scroll;
+margin-bottom: 30px;
+}
