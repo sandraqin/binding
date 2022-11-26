@@ -47,6 +47,7 @@ body {
     color:blue;
 }
 
+
 p {
     color: var(--type-color);
     margin-top:0;
@@ -223,6 +224,24 @@ right:-7%;
     right:-7%;
 }
 
+.reflection{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 800;
+text-align: left;
+font-size:calc(var(--base));
+
+}
+
+
+.reflection1{
+text-decoration:underline;
+}
+.reflection1:hover{
+font-weight: 900;
+font-style: italic;
+color:blue;
+}
 
 .intro{
 font-family: 'Helvetica';
