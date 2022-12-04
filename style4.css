@@ -93,6 +93,6 @@ padding:calc(var(--page-spacing) * 4);
 font-size:calc(var(--base)) ;
 color:rgb(0, 0, 0);
 font-weight: 350;
-height: 80%;
+height: 90%;
 overflow-y: scroll;
 }
