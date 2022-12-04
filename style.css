@@ -1,6 +1,8 @@
 html {
     height: 100%;
+    scroll-behavior: smooth;
   }
+
 body {
     min-height: 100%;
 }
@@ -43,8 +45,7 @@ margin:0;
 
 .left{
 background-color:rgb(255, 255, 255);
-padding-top:calc(var(--page-spacing) * 2);
-padding-bottom:calc(var(--page-spacing) * 2);
+padding:0;
 display:flex;
 flex-direction: column;
 justify-content: space-between;
@@ -144,6 +145,65 @@ font-size:calc(var(--base) * 0.8) ;
 font-weight: 500; 
 }
 
+h1{
+font-size: calc(var(--base) * 1);
+color:rgb(201, 188, 66);
+line-height: 120%;;
+
+font-weight: 500; 
+padding-top:calc(var(--page-spacing) * 3);
+padding-bottom:calc(var(--page-spacing));
+
+}
+
+em{
+font-style: oblique;   
+font-weight: 400;  
+}
+
+
+
+.quote{
+font: Roboto;
+font-size: calc(var(--base) * 1);
+color:rgb(255, 255, 255);
+line-height: 120%;;
+font-style: oblique;
+
+font-weight: 400; 
+padding-top:calc(var(--page-spacing) * 2);
+padding-bottom:calc(var(--page-spacing));   
+}
+
+
+.footer{
+display:flex;
+justify-content: space-between;
+padding-top:calc(var(--page-spacing) * 4) ;
+padding-bottom:calc(var(--page-spacing) * 2) ;
+color:white;
+}
+
+
+.totop{
+font-family: 'Roboto Slab';
+font-style: normal;
+
+font-size:calc(var(--base) * 0.8) ;
+font-weight: 300; 
+}
+
+.original{
+font-family: 'Roboto Slab';
+font-style: normal;
+
+font-size:calc(var(--base) * 0.8) ;
+font-weight: 500; 
+}
+
+
+
+
 
 
 @media (max-width: 600px) {
@@ -193,7 +253,7 @@ font-weight: 500;
     .context1{
 
         margin:0;
-        font-size:calc(var(--base) * 1.1) ;
+        font-size:calc(var(--base) * 1.2) ;
         width:90%;
         height: 55%;
         overflow-y: scroll;
@@ -201,6 +261,7 @@ font-weight: 500;
         padding:0;
         padding-left:calc(var(--page-spacing) * 2);
         padding-bottom:calc(var(--page-spacing) * 2);
+        padding-right:calc(var(--page-spacing));
         margin-top:calc(var(--page-spacing) * 2);
         margin-bottom:calc(var(--page-spacing) * 2);
 
@@ -228,5 +289,47 @@ font-weight: 500;
         padding:0;
         font-size:calc(var(--base)*1.2) ;
     }
+
+    h1{
+        font-size: calc(var(--base) * 1.5);
+        color:rgb(201, 188, 66);
+        line-height: 120%;;
+        
+        font-weight: 500; 
+        padding-top:calc(var(--page-spacing) * 3);
+        padding-bottom:calc(var(--page-spacing));
+        
+        }
+
+.quote{
+font: Roboto;
+font-size: calc(var(--base) * 1.4);
+color:rgb(255, 255, 255);
+line-height: 120%;;
+font-style: oblique;
+
+font-weight: 400; 
+padding-top:calc(var(--page-spacing) * 2);
+padding-bottom:calc(var(--page-spacing));   
+}
+
+
+.totop{
+font-family: 'Roboto Slab';
+font-style: normal;
+
+font-size:calc(var(--base) * 1.2) ;
+font-weight: 300; 
+}
+
+.original{
+font-family: 'Roboto Slab';
+font-style: normal;
+
+font-size:calc(var(--base) * 1.2) ;
+font-weight: 500; 
+}
+
+
 
 }
