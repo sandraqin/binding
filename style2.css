@@ -247,6 +247,10 @@ color:blue;
     color:blue;
 }
 
+img{
+  width:500px;
+}
+
 
 
 @media (max-width: 600px) {
@@ -312,6 +316,7 @@ color:blue;
 
       padding:0;
       padding-left:calc(var(--page-spacing) * 2);
+      padding-right:calc(var(--page-spacing)*2);
       padding-bottom:calc(var(--page-spacing) * 2);
       margin-top:calc(var(--page-spacing) * 2);
       margin-bottom:calc(var(--page-spacing) * 2);
