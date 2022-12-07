@@ -366,8 +366,8 @@ mix-blend-mode: multiply;
     }
     
     img{
-        transform: scale(0.5);
         margin:0;
+        width:250px;
         }
 
 }

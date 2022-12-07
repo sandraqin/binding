@@ -330,6 +330,8 @@ font-size:calc(var(--base) * 1.2) ;
 font-weight: 500; 
 }
 
-
+img{
+width:280px;
+}
 
 }
